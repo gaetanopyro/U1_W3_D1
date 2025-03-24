@@ -57,6 +57,15 @@ console.log(addiz);
 /* ESERCIZIO 6 (map)
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
 */
+const database = [1, 85, 3, 10, 5];
+const incr = 2;
+
+function incrArray(arry, n) {
+  arry.map((numero) => numero + n);
+}
+
+const arrayIncr = incrArray(database, incr);
+console.log(incrArray);
 
 /* ESERCIZIO 7 (map)
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
