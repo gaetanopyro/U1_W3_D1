@@ -7,9 +7,10 @@ function stringhe(pierpaolo, giovanni) {
   const secondStr = giovanni.slice(-3);
   const concatena = firstStr + secondStr;
   const strMaisc = concatena.toUppercase();
-
-  console.log(strMaisc);
+  return strMaisc;
 }
+console.log(stringhe("pierpaolo", "giovanni"));
+
 /* ESERCIZIO 2 (for)
   Scrivi una funzione che torni un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
 */
@@ -66,7 +67,6 @@ function incrArray(arry, n) {
 
 const arrayIncr = incrArray(database, incr);
 console.log(incrArray);
-
 /* ESERCIZIO 7 (map)
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
